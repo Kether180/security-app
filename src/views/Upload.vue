@@ -1,9 +1,10 @@
 <template>
-  <div id="app"> <br>
+  <div id="app">
+  <h1 class="font-black text-white text-2xl"> UPLOAD FILE </h1>
     <h1>Here you can upload your repository and we'll identify and fix vulnerabilities in your open source.</h1> <br>
     <upload-file msg="" />
   </div><br>
-  <h2>WATCH DEMO</h2> <br>
+  <h2 class="font-black">WATCH DEMO</h2> <br>
   <div class="inline-block align-middle">
     <section>
       <iframe

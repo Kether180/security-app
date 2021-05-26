@@ -4,6 +4,7 @@
 
     <router-link to="/upload">Upload Repository</router-link> |
     <router-link to="/contact">Contact</router-link> |
+    <router-link to="/api"></router-link> 
     <router-view />
   </div>
   <div id="app"></div>

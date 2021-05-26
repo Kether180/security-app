@@ -14,6 +14,7 @@
           <div class="2xl:text-lg text-yellow">
             <p></p>
           </div>
+          <br />
           <div class="2xl:py-2 2xl:text-lg text-white-400">
             Alexander Garcia Angus <br />
 
@@ -70,8 +71,8 @@ export default {
   text-align: center;
   color: #090e14;
   background: rgb(10, 10, 10);
-  padding:30px;
- 
+  padding: 30px;
+
   color: rgb(241, 233, 233);
 
   a {

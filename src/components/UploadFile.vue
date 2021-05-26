@@ -29,12 +29,14 @@
     </div>
     <br />
     <div>
-      <button
-        class="group relative justify-center py-2 px-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-        v-on:click="submitFiles()"
+      <router-link to="/api">
+        <button
+          class="group relative justify-center py-2 px-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          v-on:click="submitFiles()"
+        >
+          Submit
+        </button></router-link
       >
-        Submit
-      </button>
     </div>
   </form>
 </template>
@@ -100,36 +102,6 @@ export default {
     },
   },
 };
-
-/* tried to use axios but did not work
-
-      let formData = new FormData(); // Initialize the form data
-      for (var i = 0; i < this.files.length; i++) {
-        let file = this.files[i];
-        formData.append("files[" + i + "]", file);
-      }
-      //formData.append("file", this.file); // Add the form data we need to submit
-
-      const axios = require("axios").default;
-
-      axios
-        .post("/select-files", formData, {
-          // make the request to the POST/ single-file URL
-          headers: {
-            "Content-Type": "multipart/form-data",
-          },
-        })
-        .then(function() {
-          console.log("Uploaded");
-        })
-        .catch(function() {
-          console.log("Failure!");
-        });
-    },
-
-    */
 </script>
 
-<style>
-
-</style>
+<style></style>

@@ -1,12 +1,14 @@
 <template>
- <h1 class="text-white text-2xl font-black">
-      CONTACT
+ <h1 class="text-yellow text-2xl">
+    
     </h1>
+
+
 </template>
 
 <script>
 export default {
-  name: "ContactDebricked",
+  name: "ApiInterface",
   props: {
     msg: String,
   },

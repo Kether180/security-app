@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Contact from '../views/Contact.vue'
+import Api from '../views/Api.vue'
 
 
 const routes = [
@@ -13,6 +14,11 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: Contact
+  },
+  {
+    path: '/api',
+    name: 'Api',
+    component: Api
   },
   {
     path: '/upload',
