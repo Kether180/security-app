@@ -1,4 +1,8 @@
 # debricked
+
+https://debricked-app.netlify.app/ 
+
+
 The task - A simple dependency scanner
 
 The task consists of creating a view that communicates (i.e. sends API calls) with our
@@ -16,8 +20,7 @@ The documentation for our vulnerability scan API is available at
 https://app.debricked.com/api/doc/open. 
 
 In order to use it you need an account with Debricked, You can sign up for an account at https://app.debricked.com/en/register.
-The overall functionality is very similar to our CLI (https://github.com/debricked/debricked-cli). Feel free to take inspiration from it, the relevant
-source code is available under the /src directory.
+The overall functionality is very similar to our CLI (https://github.com/debricked/debricked-cli). 
 
 In addition to the scan functionality, a profile view should be created, where the user can
 customise the look and feel of the application. Feel free to be creative with what the user can
