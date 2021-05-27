@@ -8,7 +8,7 @@
           id="files"
           ref="files"
           multiple
-          v-on:change="handleFilesUpload()"
+          v-on:change="fileRelativePath()"
         />
       </label>
     </div>
@@ -56,7 +56,7 @@ export default {
       this.$refes.files.click();
     },
 
-    handleFileUpload() {
+    fileRelativePath() {
       // Handles change on the file upload
       let uploadedFiles = this.$refes.files.files;
 
@@ -82,7 +82,6 @@ export default {
         "fileRelativePath",
         this.$refs.fileInputRef.files.item(0)
       );
-      formData.append("commitName", "unknown");
       formData.append("productName", "unknown");
       formData.append("releaseName", "unknown");
       formData.append("repositoryUrl", this.$refs.fileInputRef.files.item(0));
@@ -102,6 +101,31 @@ export default {
     },
   },
 };
-</script>
 
-<style></style>
+/* {
+  "fileRelativePath": "string",
+  "repositoryName": "string",
+  "commitName": "string",
+  "productName": "string",
+  "releaseName": "string",
+  "repositoryUrl": "string",
+  "branchName": "string",
+  "ciUploadId": "string"
+}*/
+</script>
+<style>
+  #input[type="file"]{
+    position: absolute;
+    top: -500px;
+  }
+
+  #div.file-listing{
+    width: 200px;
+  }
+
+  #span.remove-file{
+    color: red;
+    cursor: pointer;
+    float: right;
+  }
+</style>
