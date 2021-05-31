@@ -1,10 +1,12 @@
 <template>
-  <div id="app">
+  <div class="text-1xl font-mono"  id="app">
+    
     <router-link to="/">Home</router-link> |
 
-    <router-link to="/upload">Upload Repository</router-link> |
+    <router-link to="/upload">Services</router-link> |
     <router-link to="/contact">Contact</router-link> |
     <router-link to="/api"></router-link> 
+    
     <router-view />
   </div>
   <div id="app"></div>

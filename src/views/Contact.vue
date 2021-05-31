@@ -2,7 +2,7 @@
   <div id="app">
     <contact-debricked msg="" />
     <!-- Right area -->
-    <div class="w-2/6 p-5 inline-block align-middle">
+    <div class="w-2/6 p-5 inline-block align-middle font-mono">
       <div class="justify-center h-full rounded-sm text-white">
         <div class="">
           <img
@@ -15,7 +15,7 @@
             <p></p>
           </div>
           <br />
-          <div class="2xl:py-2 2xl:text-lg text-white-400">
+          <div class="2xl:py-2 2xl:text-lg text-white-400 font-mono">
             Alexander Garcia Angus <br />
 
             <svg
@@ -40,7 +40,8 @@
                 conscientia.digitaltech@gmail.com</a
               >
             </p>
-            Malmö, Sweden
+            Malmö, Sweden <br>
+            Copenhagen, Denmark
           </div>
         </div>
       </div>

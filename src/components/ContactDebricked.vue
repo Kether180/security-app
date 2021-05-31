@@ -1,5 +1,5 @@
 <template>
- <h1 class="text-white text-2xl font-black">
+ <h1 class="text-white text-3xl font-black font-mono">
       CONTACT
     </h1>
 </template>
