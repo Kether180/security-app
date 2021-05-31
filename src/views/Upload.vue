@@ -4,18 +4,9 @@
     <h1>Here you can upload your repository and we'll identify and fix vulnerabilities in your open source.</h1> <br>
     <upload-file msg="" />
   </div><br>
-  <h2 class="font-black">WATCH DEMO</h2> <br>
+  <h2 class="font-black">IT CYBERSECURITY TRENDS 2021</h2> <br>
   <div class="inline-block align-middle">
-    <section>
-      <iframe
-        width="700"
-        height="300"
-        src="https://www.youtube.com/embed/epOEB8kTcww"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+    <section><iframe width="900" height="506" src="https://www.youtube.com/embed/BP53jX7jAl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
   </div>
 
